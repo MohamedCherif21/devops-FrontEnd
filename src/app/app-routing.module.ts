@@ -198,11 +198,7 @@ const routes: Routes = [
   {path : 'details/:id', component : DetailsComponent} ,
 
 
- 
-  {path:'forbidden',
-  component:ForbiddenComponent},
-  {path:'NotFound',
-  component:PageNotFoundComponent},
+
 
 ];
 
