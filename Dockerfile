@@ -1,15 +1,16 @@
-FROM node:14
+FROM node:latest as build
 
-WORKDIR /usr/src/app
-
-COPY package*.json ./
-
-RUN npm install
+WORKDIR /devops-FrontEnd
 
 COPY . .
 
-RUN npm run build
+RUN npm install
+RUN npm run build --prod
+
+From nginx:alpine
+
+COPY --from=build /devops-FrontEnd/dist/co-co-market /usr/share/nginix/html
+
 
 EXPOSE 4200
-
-CMD ["npm", "start"]
+CMD ["ngix", "-g","daemon off;"]
