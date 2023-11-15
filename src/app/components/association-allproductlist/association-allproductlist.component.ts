@@ -5,7 +5,6 @@ import { AssociationServiceService } from 'src/app/Services/association-service.
 import { UserAuthService } from 'src/app/Services/user-auth.service';
 import { UserService } from 'src/app/Services/user.service';
 
-import { CatalogueService } from 'src/app/services/catalogue-service.service';
 
 @Component({
   selector: 'app-association-allproductlist',

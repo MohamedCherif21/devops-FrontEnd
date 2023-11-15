@@ -58,12 +58,7 @@ import { CommentaireComponent } from './FrontOffice/commentaire/commentaire.comp
 import { ReactionComponent } from './FrontOffice/reaction/reaction.component';
 import { PublicationFormComponentComponent } from './FrontOffice/publication-form-component/publication-form-component.component';
 import { PublicationComponent } from './BackOffice/publication/publication.component';
-import { CatalogueListComponent } from './components/catalogue-list-component/catalogue-list-component.component';
-import { ProductListComponent } from './components/product-list/product-list.component';
-import { AdminCatalogueListComponent } from './components/admin-catalogue-list/admin-catalogue-list.component';
 import { AdminProductListComponent } from './components/admin-product-list/admin-product-list.component';
-import { AdminAllproductlistComponent } from './components/admin-allproductlist/admin-allproductlist.component';
-import { AddProductToCatalogueComponent } from './components/add-product-to-catalogue/add-product-to-catalogue.component';
 import { ByerConnectedComponent } from './BackOffice/byer-connected/byer-connected.component';
 import { DelevryConnectedComponent } from './BackOffice/delevry-connected/delevry-connected.component';
 import { AssociationConnectedComponent } from './BackOffice/association-connected/association-connected.component';
@@ -129,12 +124,10 @@ import { ContactComponent } from './contact/contact.component';
     PublicationFormComponentComponent,
     PublicationComponent,
 
-    CatalogueListComponent,
-    ProductListComponent,
-    AdminCatalogueListComponent,
+
+
     AdminProductListComponent,
-    AdminAllproductlistComponent,
-    AddProductToCatalogueComponent,
+    
     ByerConnectedComponent,
     DelevryConnectedComponent,
     AssociationConnectedComponent,

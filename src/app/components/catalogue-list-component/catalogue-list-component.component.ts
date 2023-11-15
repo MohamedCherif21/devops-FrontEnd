@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Catalogue } from '../../Models/catalogue';
-import { CatalogueService } from '../../services/catalogue-service.service';
+import { CatalogueService } from '../../Services/catalogue-service.service';
 import { Router } from '@angular/router';
 
 @Component({

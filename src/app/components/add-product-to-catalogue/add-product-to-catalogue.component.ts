@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Catalogue } from '../../Models/catalogue';
-import { CatalogueService } from '../../services/catalogue-service.service';
 import { Produit } from '../../Models/produit';
 import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
+import { CatalogueService } from '../../Services/catalogue-service.service';
 
 @Component({
   selector: 'app-add-product-to-catalogue',

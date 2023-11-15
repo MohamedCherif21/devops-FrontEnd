@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Produit } from '../../Models/produit';
-import { CatalogueService } from '../../services/catalogue-service.service';
 import { CherifService } from 'src/app/Services/cherif.service';
+import { CatalogueService } from '../../Services/catalogue-service.service';
 
 @Component({
   selector: 'app-product-list',
