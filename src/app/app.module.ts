@@ -50,7 +50,6 @@ import { CartComponent } from './cart/cart.component';
 import { ProductComponent } from './product/product.component';
 import { CommandeComponent } from './commande/commande.component';
 import { TraitementCommandeComponent } from './BackOffice/traitement-commande/traitement-commande.component';
-import { NgxStarRatingModule } from 'ngx-star-rating';
 import { ShopComponent } from './shop/shop.component';
 import { AllProduitComponent } from './all-produit/all-produit.component';
 import { AllshopComponent } from './allshop/allshop.component';
@@ -153,7 +152,7 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
-    NgxStarRatingModule,
+    FormsModule,
 
 
 

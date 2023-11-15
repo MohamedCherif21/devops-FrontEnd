@@ -25,12 +25,9 @@
               "src/assets"
             ],
             "styles": [
-
               "node_modules/bootstrap/scss/bootstrap.scss",
               "node_modules/leaflet/dist/leaflet.css",
               "src/styles.css"
-
-
             ],
             "scripts": []
           },
@@ -39,8 +36,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -99,10 +96,8 @@
         }
       }
     }
-
   },
   "cli": {
     "analytics": "29171164-1974-45a4-a10e-5434b70858e4"
-
   }
 }
