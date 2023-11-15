@@ -1,16 +1,16 @@
-FROM node:latest as build
+FROM node:latest AS build
 
 WORKDIR /app
 
 COPY . .
 
 RUN npm install
-RUN npm run build --prod
+RUN ng build --configuration=production
 
-From nginx:alpine
+FROM nginx:alpine
 
 COPY --from=build /app/dist/co-co-market /usr/share/nginix/html
 
 
 EXPOSE 4200
-CMD ["ngix", "-g","daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
