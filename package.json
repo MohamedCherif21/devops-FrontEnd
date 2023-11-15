@@ -30,7 +30,6 @@
     "leaflet.markercluster": "^1.5.3",
     "mapbox-gl": "^2.14.1",
     "mapbox-gl-leaflet": "^0.0.15",
-    "ngx-star-rating": "^2.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
